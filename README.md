@@ -1,1 +1,1 @@
-# session-notebook
+# session-notebook-spiced
