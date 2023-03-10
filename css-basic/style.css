@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap");
+
+:root {
+  /* https://colorhunt.co/ */
+  --color1: #37306b;
+  --color2: #66347f;
+  --color3: #9e4784;
+  --color4: #d27685;
+  --black: black;
+  --white: white;
+  --black-alpha: rgba(0 0 0 / 30%);
+}
+
+* {
+  font-family: "Karla", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: var(--color4); */
+  background-image: url(https://source.unsplash.com/featured/800x600);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+img {
+  width: 200px;
+  border-radius: 12px;
+  border: 2px solid var(--white);
+  box-shadow: 5px 3px 10px var(--black);
+}
+
+section {
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(0 0 0 / 40%);
+  border-radius: 20px;
+  display: inline-block;
+}
